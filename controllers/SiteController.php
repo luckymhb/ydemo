@@ -60,9 +60,10 @@ class SiteController extends Controller
      * @return string
      */
     public function actionIndex()
-    {   
+    {
         //$this->layout= "wx";        //�Ƿ���ʾ����  true  false ���
-        return $this->render('index');
+        echo 'hello world';
+       return $this->render('index');
     }
 
     /**
