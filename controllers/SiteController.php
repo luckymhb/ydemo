@@ -15,7 +15,7 @@ class SiteController extends Controller
     /**
      * @inheritdoc
      */
-    public function behaviors()     //ִ�й��� zhi xing guo lv
+    public function behaviors()     //执行过滤
     {
         return [
             'access' => [

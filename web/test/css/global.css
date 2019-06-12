@@ -1,0 +1,51 @@
+html,body{font-size: 12px;color: #131313;font-family: "PingFang SC",PingHei,STHeitiSC-Light,tahoma,"Myriad Set Pro","Lucida Grande","Helvetica Neue","microsoft yahei",Helvetica,Arial,Verdana,sans-serif;}
+/*内容主体区域*/
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+    display: block;
+	overflow: hidden;
+}
+/*一级字体，底部*/
+.font1{
+	font-size: 12px;
+	line-height: 18px;
+}
+/*二级字体，段落*/
+.font2{
+	font-size: 14px;
+	line-height: 26px;
+}
+/*三级字体，头部、按钮*/
+.font3{
+	font-size: 24px;
+	line-height: 32px;
+}
+/*四级字体，标题*/
+.font4{
+	font-size: 28px;
+}
+.font5{
+	font-size: 36px;
+}
+/*字体颜色*/
+.font-bold{
+	font-weight: bold;
+}
+.font-white{
+	color: #fff;
+}
+.font-black{
+	color: #131313;
+}
+/*背景颜色*/
+.bg-white{
+	background: rgba(255,255,255,0.95)!important; 
+    background: #fff;
+    filter: alpha(opacity=95); 
+}
+.bg-orange{
+	background: rgba(227,95,19,0.95)!important; 
+    background: #e35f13;
+    filter: alpha(opacity=95); 
+}

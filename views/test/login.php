@@ -5,29 +5,25 @@ use yii\widgets\Alert;
 use yii\widgets\Breadcrumbs;
 AdminAsset::register($this);  // $this 代表视图对象
 $this->context->layout = false;
-$this->title = '管理员';
+$this->title = '管理员登录';
 ?>
+<?php $this->beginPage() ?>
 <!doctype html>
 <html  class="x-admin-sm">
 <head>
-	<meta charset="UTF-8">
-	<title>后台登录-X-admin2.1</title>
+    <meta charset="<?= Yii::$app->charset ?>">          <!-- Yii::$app->charset  设置页面编码  -->
+    <title><?= Html::encode($this->title) ?></title>
 	<meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="stylesheet" href="./css/font.css">
-	<link rel="stylesheet" href="./css/xadmin.css">
-    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./lib/layui/layui.js" charset="utf-8"></script>
-    <script type="text/javascript" src="./js/xadmin.js"></script>
-    <script type="text/javascript" src="./js/cookie.js"></script>
-
+    <?php $this->head() ?>                              <!-- 此处引用AdminAsset的资源文件 -->
 </head>
 <body class="login-bg">
+<?php $this->beginBody() ?>
 
     <div class="login layui-anim layui-anim-up">
-        <div class="message">x-admin2.0-管理登录</div>
+        <div class="message"><?= $title ?></div>
         <div id="darkbannerwrap"></div>
 
         <form method="post" action="" class="layui-form" >
@@ -41,46 +37,31 @@ $this->title = '管理员';
     </div>
 
     <script>
-        $(function  () {
+        $(function () {
             layui.use('form', function(){
-              var form = layui.form;
-              // layer.msg('玩命卖萌中', function(){
-              //   //关闭后的操作
-              //   });
-              //监听提交
-              form.on('submit(login)', function(data){
-								var url = "http://www.ydemo.com/web/index.php?r=test/login";
-								$.post(url,{data.field},function(data){
-									var data = JSON.parse(data);
-									console.log(data);
-									if(data.status==1){
-										layer.msg(data.info,function(data){
-											location.href='index.html';
-										});
-									}else{
-										layer.msg(data.info,function(data){
-											return false;
-										});
-									}
-								});
-              });
+                var form = layui.form;
+                layer.msg('玩命卖萌中', function(){});
+                //监听提交
+                form.on('submit(login)', function(data){
+                    var url = "http://www.ydemo.com/web/index.php?r=test/login";
+                    var info = data.field;
+                    $.post(url,{username:info.username,password:info.password},function(data1){
+                        data1 = JSON.parse(data1);
+                        if(data1.status == 1){
+                            layer.msg(data1.info,function(data){
+                                location.href='?r=site/index';
+                            });
+                        }else{
+                            layer.msg(data1.info, function(){});
+                            return false;
+                        }
+                    });
+                    return false;
+                });
             });
         })
-
-
     </script>
-
-
-    <!-- 底部结束 -->
-    <script>
-    //百度统计可去掉
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
+<?php $this->endBody() ?>
 </body>
 </html>
+<?php $this->endPage() ?>

@@ -8,7 +8,6 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
-
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -16,7 +15,7 @@ AppAsset::register($this);
 <html lang="<?= Yii::$app->language ?>">
 <!-- yii框架创建表单  yii/widgets/ActionForm -->
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">          <!-- Yii::$app->charset  ���ڶ�ȡ�����ļ�  -->
+    <meta charset="<?= Yii::$app->charset ?>">          <!-- Yii::$app->charset  设置页面编码  -->
                                                         <!-- yong yu du qu pei zhi wen jian -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
