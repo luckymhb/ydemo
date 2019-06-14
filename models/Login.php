@@ -42,8 +42,8 @@ class Login extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'lname' => 'Lname',
-            'lpass' => 'Lpass',
+            'lname' => '用户名',
+            'lpass' => '密码',
             'date' => 'Date',
         ];
     }

@@ -7,7 +7,9 @@ use app\models\Login;
 use app\models\Goods;
 use yii\web\Response;
 use yii\helpers\Html;
-use yii\data\Pagination;
+use yii\data\Pagination;    //分页类
+use yii\filters\AccessControl; //过滤器类
+use yii\imagine\Image;
 class TestController extends \yii\web\Controller
 {
     public $enableCsrfValidation = false;
@@ -16,6 +18,40 @@ class TestController extends \yii\web\Controller
     public $layout = 'wx';
     //访问路径
     //http://www.ydemo.com/web/index.php?r=test/login
+
+    //引用http缓存
+//    public function behaviors()
+//    {
+//        return [
+//            [
+//                'class' => 'yii\filters\HttpCache',
+//                'only' => ['index', 'view','login'],
+//                'lastModified' => function ($action, $params) {
+//                    $q = new \yii\db\Query();
+////                    return $q->from('yii_login')->max('create_time');
+//                    return \Yii::$app->params['lastModified'];
+//                },
+//            ],
+//        ];
+//    }
+    //AccessControl
+//    public function behaviors()
+//    {
+//        return [
+//            'access' => [
+//                'class' => AccessControl::className(),
+//                'only' => ['index'],
+//                'rules' => [
+//                    // 允许认证用户
+//                    [
+//                        'allow' => true,
+//                        'roles' => ['@'],
+//                    ],
+//                    // 默认禁止其他用户
+//                ],
+//            ],
+//        ];
+//    }
 
     public function actionIndex()
     {
@@ -63,6 +99,9 @@ class TestController extends \yii\web\Controller
         }
     }
     public function actionDetail(){
+        //为图片创建一个缩略图
+//        Image::thumbnail('@webroot/test/images/phone.png', 120, 120)
+//            ->save(Yii::getAlias('@runtime/thumb-test-image.jpg'), ['quality' => 50]);
         $gid = 374;
         $goods = Goods::find()->where(['id' => $gid])->one();
         //新模板Banner
@@ -101,6 +140,10 @@ class TestController extends \yii\web\Controller
             'countries' => $countries,
             'pagination' => $pagination,
         ]);
+    }
+    public function actionTest(){
+        $model = new Login();
+        return $this->render('test',['model'=>$model]);
     }
 
 }

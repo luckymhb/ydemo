@@ -7,6 +7,7 @@ class TestAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
+//    public $cssOptions = ['condition' => 'lte IE9'];   小于等于IE9才能使用css
     public $css = [
         'test/css/style.css',
         'test/css/global.css',
