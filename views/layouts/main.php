@@ -60,6 +60,8 @@ AppAsset::register($this);
     ?>
 
     <div class="container">
+        <!-- 视图和布局的公共参数 -->
+<!--        --><?//= Html::encode($this->params['goods']['is_new']) ?>
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>

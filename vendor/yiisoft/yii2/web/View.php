@@ -149,7 +149,9 @@ class View extends \yii\base\View
         //获取当前控制器名称
         $name = $this->context->id;
         //定义引用图片常量
-        define('__IMG__','/web/'.$name.'/images');
+        if(!defined('__IMG__')){
+            define('__IMG__','/web/'.$name.'/images');
+        }
         echo self::PH_BODY_BEGIN;
         $this->trigger(self::EVENT_BEGIN_BODY);
     }

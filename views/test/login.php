@@ -49,7 +49,7 @@ $this->title = '管理员登录';
                         data1 = JSON.parse(data1);
                         if(data1.status == 1){
                             layer.msg(data1.info,function(data){
-                                location.href='?r=site/index';
+                                location.href='?r=test/index';
                             });
                         }else{
                             layer.msg(data1.info, function(){});
