@@ -102,6 +102,9 @@ class TestController extends \yii\web\Controller
         //为图片创建一个缩略图
 //        Image::thumbnail('@webroot/test/images/phone.png', 120, 120)
 //            ->save(Yii::getAlias('@runtime/thumb-test-image.jpg'), ['quality' => 50]);
+
+        echo Yii::$app->request->url;
+        echo $userIP = Yii::$app->request->userIP;
         $gid = 374;
         $goods = Goods::find()->where(['id' => $gid])->one();
         //新模板Banner
@@ -121,6 +124,10 @@ class TestController extends \yii\web\Controller
         $goods['goods_note']     = json_decode($goods['goods_note'], TRUE);
         //底部推广链接
         $goods['bottom_link']    = json_decode($goods['bottom_link'], TRUE);
+        //发送文件，浏览器下载图片
+//        return \Yii::$app->response->sendFile('D:\phpStudy\PHPTutorial\WWW\ydemo/web/test/images/phone.png');
+        //抛出错误
+//        throw new \yii\web\BadRequestHttpException;
         return $this->render('detail',['goods'=>$goods]);
     }
     public function actionGoods(){
@@ -142,6 +149,28 @@ class TestController extends \yii\web\Controller
         ]);
     }
     public function actionTest(){
+        //设置session_flash
+        $session = yii::$app->session;
+//        // 在名称为"alerts"的flash信息增加数据
+//        $session->setFlash('alerts','first');
+//        $session->addFlash('alerts', 'You have successfully deleted your post.');
+//        $session->addFlash('alerts', 'You have successfully added a new friend.');
+//        $session->addFlash('alerts', 'You are promoted.');
+//        $alerts = $session->getFlash('alerts');
+//        print_r($alerts);
+        if($session->hasFlash('postDeleted')){
+            $session->setFlash('postDeleted', 'You have successfully deleted your post.');
+        }
+
+        $cookies = Yii::$app->response->cookies;
+        // 在要发送的响应中添加一个新的 cookie
+        $cookies->add(new \yii\web\Cookie([
+            'name' => 'language',
+            'value' => 'zh-CN',
+        ]));
+        //获取cookie
+        echo $cookies->getValue('language');
+
         $model = new Login();
         return $this->render('test',['model'=>$model]);
     }
