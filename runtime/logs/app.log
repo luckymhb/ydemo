@@ -3088,3 +3088,1200 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1560503003.609
     'REQUEST_TIME' => 1560503003
 ]
+2019-06-18 05:05:28 [127.0.0.1][100][gple4f8b50f858t49u87mhd71g][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "video/video2.mp4". in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('video/video2.mp...', Array)
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-18 05:05:28 [127.0.0.1][100][gple4f8b50f858t49u87mhd71g][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'monitor_count' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\video\\video2.mp4'
+    'PATH_INFO' => '/video/video2.mp4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/video/video2.mp4'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50755'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_RANGE' => 'bytes=0-'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; monitor_count=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_REFERER' => 'http://www.ydemo.com/web/index.php/detail'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/video/video2.mp4'
+    'REQUEST_TIME_FLOAT' => 1560834328.2891
+    'REQUEST_TIME' => 1560834328
+]
+2019-06-18 05:05:29 [127.0.0.1][100][t2i063hfc0uhcmb5d96t3dmdep][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "video/video2.mp4". in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('video/video2.mp...', Array)
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-18 05:05:29 [127.0.0.1][100][t2i063hfc0uhcmb5d96t3dmdep][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'monitor_count' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1864'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\video\\video2.mp4'
+    'PATH_INFO' => '/video/video2.mp4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/video/video2.mp4'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50782'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_RANGE' => 'bytes=0-'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; monitor_count=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_REFERER' => 'http://www.ydemo.com/web/index.php/detail'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/video/video2.mp4'
+    'REQUEST_TIME_FLOAT' => 1560834329.4001
+    'REQUEST_TIME' => 1560834329
+]
+2019-06-18 05:05:29 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "video/video2.mp4". in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('video/video2.mp...', Array)
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-18 05:05:29 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'monitor_count' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\video\\video2.mp4'
+    'PATH_INFO' => '/video/video2.mp4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/video/video2.mp4'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50780'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_RANGE' => 'bytes=0-'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; monitor_count=1'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_REFERER' => 'http://www.ydemo.com/web/index.php/detail'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/video/video2.mp4'
+    'REQUEST_TIME_FLOAT' => 1560834329.4621
+    'REQUEST_TIME' => 1560834329
+]
+2019-06-18 05:34:49 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][Error] Error: Class 'yii\jui\DatePicker' not found in D:\phpStudy\PHPTutorial\WWW\ydemo\views\test\test.php:13
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\View.php(330): require()
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpStudy\\PHP...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\PHP...', Array, Object(app\controllers\TestController))
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('test', Array, Object(app\controllers\TestController))
+#4 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(175): yii\base\Controller->render('test', Array)
+#5 [internal function]: app\controllers\TestController->actionTest()
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#9 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#10 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2019-06-18 05:34:49 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'monitor_count' => '1'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55174'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; monitor_count=1; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560836089.0748
+    'REQUEST_TIME' => 1560836089
+]
+2019-06-18 05:54:06 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][Error] Error: Class 'yii\jui\DatePicker' not found in D:\phpStudy\PHPTutorial\WWW\ydemo\views\test\test.php:13
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\View.php(330): require()
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpStudy\\PHP...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\PHP...', Array, Object(app\controllers\TestController))
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('test', Array, Object(app\controllers\TestController))
+#4 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(175): yii\base\Controller->render('test', Array)
+#5 [internal function]: app\controllers\TestController->actionTest()
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#9 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#10 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2019-06-18 05:54:06 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58599'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=3'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560837246.493
+    'REQUEST_TIME' => 1560837246
+]
+2019-06-18 06:27:26 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('gii', Array)
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-18 06:27:26 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '16'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\gii'
+    'PATH_INFO' => '/gii'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/gii'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '63191'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=16'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/gii'
+    'REQUEST_TIME_FLOAT' => 1560839246.5684
+    'REQUEST_TIME' => 1560839246
+]
+2019-06-18 07:27:01 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][Error] Error: Class 'app\controllers\Query' not found in D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php:174
+Stack trace:
+#0 [internal function]: app\controllers\TestController->actionTest()
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#4 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2019-06-18 07:27:01 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '18'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60648'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=18'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560842821.3458
+    'REQUEST_TIME' => 1560842821
+]
+2019-06-18 07:30:48 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.login' doesn't exist in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php:915
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(915): PDOStatement->execute()
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(176): yii\db\Query->all()
+#4 [internal function]: app\controllers\TestController->actionTest()
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#8 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#9 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.login' doesn't exist
+The SQL being executed was: SELECT `id`, `lname` FROM `login` in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(930): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `l...')
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(176): yii\db\Query->all()
+#4 [internal function]: app\controllers\TestController->actionTest()
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#8 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#9 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii.login' doesn't exist
+)
+
+2019-06-18 07:30:47 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '20'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61236'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=20'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560843047.8208
+    'REQUEST_TIME' => 1560843047
+]
+2019-06-18 07:30:51 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.login' doesn't exist in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php:915
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(915): PDOStatement->execute()
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(176): yii\db\Query->all()
+#4 [internal function]: app\controllers\TestController->actionTest()
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#8 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#9 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.login' doesn't exist
+The SQL being executed was: SELECT `id`, `lname` FROM `login` in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(930): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `l...')
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(176): yii\db\Query->all()
+#4 [internal function]: app\controllers\TestController->actionTest()
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#8 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#9 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii.login' doesn't exist
+)
+
+2019-06-18 07:30:50 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '21'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1880'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61237'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=21'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560843050.904
+    'REQUEST_TIME' => 1560843050
+]
+2019-06-18 08:07:10 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\db\Query::getlastsql() in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(178): yii\base\Component->__call('getlastsql', Array)
+#1 [internal function]: app\controllers\TestController->actionTest()
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2019-06-18 08:07:09 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '25'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '55891'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=25'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560845229.4066
+    'REQUEST_TIME' => 1560845229
+]
+2019-06-18 08:10:08 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "video/video2.mp4". in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('video/video2.mp...', Array)
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-18 08:10:08 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '28'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\video\\video2.mp4'
+    'PATH_INFO' => '/video/video2.mp4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/video/video2.mp4'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56322'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_RANGE' => 'bytes=0-'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=28'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_REFERER' => 'http://www.ydemo.com/web/index.php/detail'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/video/video2.mp4'
+    'REQUEST_TIME_FLOAT' => 1560845408.8518
+    'REQUEST_TIME' => 1560845408
+]
+2019-06-18 08:10:10 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "video/video2.mp4". in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('video/video2.mp...', Array)
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-18 08:10:09 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '28'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '472'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\video\\video2.mp4'
+    'PATH_INFO' => '/video/video2.mp4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/video/video2.mp4'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56327'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_RANGE' => 'bytes=0-'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=28'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_REFERER' => 'http://www.ydemo.com/web/index.php/detail'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/video/video2.mp4'
+    'REQUEST_TIME_FLOAT' => 1560845409.9729
+    'REQUEST_TIME' => 1560845409
+]
+2019-06-18 08:10:10 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "video/video2.mp4". in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('video/video2.mp...', Array)
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-06-18 08:10:10 [127.0.0.1][100][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '28'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1884'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\video\\video2.mp4'
+    'PATH_INFO' => '/video/video2.mp4'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/video/video2.mp4'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56328'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_RANGE' => 'bytes=0-'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=28'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_REFERER' => 'http://www.ydemo.com/web/index.php/detail'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/video/video2.mp4'
+    'REQUEST_TIME_FLOAT' => 1560845410.0779
+    'REQUEST_TIME' => 1560845410
+]
+2019-06-18 08:52:00 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: username in D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php:180
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(180): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpStudy\\PHP...', 180, Array)
+#1 [internal function]: app\controllers\TestController->app\controllers\{closure}(Array)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Query.php(234): call_user_func(Object(Closure), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\db\Query.php(214): yii\db\Query->populate(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php(181): yii\db\Query->all()
+#5 [internal function]: app\controllers\TestController->actionTest()
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#9 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#10 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2019-06-18 08:51:59 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '32'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1904'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '62004'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=32'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560847919.5094
+    'REQUEST_TIME' => 1560847919
+]
+2019-06-18 09:47:46 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][Error] Error: Class 'app\controllers\Customer' not found in D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php:196
+Stack trace:
+#0 [internal function]: app\controllers\TestController->actionTest()
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#4 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2019-06-18 09:47:45 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '35'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53274'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=35'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560851265.9248
+    'REQUEST_TIME' => 1560851265
+]
+2019-06-18 09:47:55 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][error][Error] Error: Class 'app\controllers\Customer' not found in D:\phpStudy\PHPTutorial\WWW\ydemo\controllers\TestController.php:196
+Stack trace:
+#0 [internal function]: app\controllers\TestController->actionTest()
+#1 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('test', Array)
+#4 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('test/test', Array)
+#5 D:\phpStudy\PHPTutorial\WWW\ydemo\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\phpStudy\PHPTutorial\WWW\ydemo\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2019-06-18 09:47:54 [127.0.0.1][-][npnnt5hbjb6rauo1aob1t86ip6][info][application] $_COOKIE = [
+    '__guid' => '18001727.3269870714600959000.1557388697822.3977'
+    'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190' => '1560411711,1560480592'
+    '_identity' => '9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"˜üî˜Q†/.ð(d(Í&{4Ì±z¾:™þ¿äŸs”\";}'
+    'PHPSESSID' => 'npnnt5hbjb6rauo1aob1t86ip6'
+    'language' => '8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa:2:{i:0;s:8:\"language\";i:1;s:5:\"zh-CN\";}'
+    'monitor_count' => '35'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\TortoiseSVN\\bin;D:\\maven\\apache-maven-3.5.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_172\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;C:\\composer;C:\\Users\\123\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\123\\AppData\\Local\\atom\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1892'
+    'PATH_TRANSLATED' => 'D:\\phpStudy\\PHPTutorial\\WWW\\ydemo\\test\\test'
+    'PATH_INFO' => '/test/test'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php/test/test'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53296'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/PHPTutorial/WWW/ydemo/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/PHPTutorial/WWW/ydemo'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.ydemo.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '__guid=18001727.3269870714600959000.1557388697822.3977; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1560411711,1560480592; _identity=9cbc0eb8ccbfea1525e102459d802fa5ea5b663fa94771cde7c311b0dd8657a3a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a467ec89d99e136a3b2021e2fa35da7e62a5c58c21cad8ba34b3f78db8562e8aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%98%FC%EE%98Q%86%2F.%F0%28d%28%0D%CD%26%7B%03%0B4%CC%B1z%BE%3A%99%FE%BF%E4%9Fs%94%90%22%3B%7D; PHPSESSID=npnnt5hbjb6rauo1aob1t86ip6; language=8aa49df6f004b7ed1d9eac74055749f00dd8b43e98b53a5902ed7cc789ef3fafa%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; monitor_count=35'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.ydemo.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php/test/test'
+    'REQUEST_TIME_FLOAT' => 1560851274.3153
+    'REQUEST_TIME' => 1560851274
+]

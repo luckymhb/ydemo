@@ -40,6 +40,7 @@ $config = [
             ],
         ],
         'db' => $db,
+        //路由管理
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,

@@ -7,6 +7,17 @@ use app\assets\AppAsset;
 AppAsset::register($this);  // $this 代表视图对象
 $this->context->layout = false;
 $this->title = '测试';
+
+use yii\widgets\Menu;
+
+echo Menu::widget([
+    'activateItems' => false,
+    'items' => [
+        ['label' => 'Home', 'url' => ['site/index']],
+        ['label' => 'Products', 'url' => ['product/index']],
+        ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
+    ],
+]);
 ?>
 
 <?php $this->beginPage() ?>

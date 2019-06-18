@@ -10,6 +10,7 @@ use yii\helpers\Html;
 use yii\data\Pagination;    //分页类
 use yii\filters\AccessControl; //过滤器类
 use yii\imagine\Image;
+use yii\db\Query;
 class TestController extends \yii\web\Controller
 {
     public $enableCsrfValidation = false;
@@ -151,7 +152,7 @@ class TestController extends \yii\web\Controller
     public function actionTest(){
         //设置session_flash
         $session = yii::$app->session;
-//        // 在名称为"alerts"的flash信息增加数据
+//        // 在名称为"alerts"的session_flash信息增加数据
 //        $session->setFlash('alerts','first');
 //        $session->addFlash('alerts', 'You have successfully deleted your post.');
 //        $session->addFlash('alerts', 'You have successfully added a new friend.');
@@ -170,6 +171,32 @@ class TestController extends \yii\web\Controller
         ]));
         //获取cookie
         echo $cookies->getValue('language');
+
+        //查询构建器
+        $query = (new Query())->from('yii_login');
+//        $a = $query->select(['*'])->all();
+//        $command = $query->select(['*'])->where(['like', 'lname', ['23', '45']])->all(); //查询语句，数组方式
+          $command = $query->select(['*'])->where(['like', 'lname', ['23', '45']])->indexBy(function ($row) {
+              return $row['id'];//代表使用id，作为数组的下标(key)
+          })->all(); //查询语句，索引方式
+//        $command = $query->select(['*'])->where(['like', 'lname', ['23', '45']] )->createCommand(); //用于打印sql
+//        // 打印 SQL 语句
+//        echo $command->sql;
+//        // 打印被绑定的参数
+//        print_r($command->params);
+//        // 返回查询结果的所有行
+//        $rows = $command->queryAll();
+//        $goods = Goods::findOne(374);
+        // 每次获取 10 条产品数据
+//        foreach (Goods::find()->batch(10) as $customers) {
+//
+//            // $customers 是个最多拥有 10 条数据的数组
+//        }
+        // 每次获取 10 条客户数据，然后一条一条迭代它们
+        foreach (Goods::find()->each(10) as $customer) {
+            print_r($customer);
+            // $customer 是个 `Customer` 对象
+        }
 
         $model = new Login();
         return $this->render('test',['model'=>$model]);
