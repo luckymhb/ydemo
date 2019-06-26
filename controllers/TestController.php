@@ -11,6 +11,7 @@ use yii\data\Pagination;    //分页类
 use yii\filters\AccessControl; //过滤器类
 use yii\imagine\Image;
 use yii\db\Query;
+use yii\web\UploadedFile;
 class TestController extends \yii\web\Controller
 {
     public $enableCsrfValidation = false;
@@ -193,13 +194,45 @@ class TestController extends \yii\web\Controller
 //            // $customers 是个最多拥有 10 条数据的数组
 //        }
         // 每次获取 10 条客户数据，然后一条一条迭代它们
-        foreach (Goods::find()->each(10) as $customer) {
-            print_r($customer);
-            // $customer 是个 `Customer` 对象
-        }
-
+//        foreach (Goods::find()->each(10) as $customer) {
+//            print_r($customer);
+//            // $customer 是个 `Customer` 对象
+//        }
+//        $login = Login::findOne(4);
+//        echo $login->getCreateTimeText();
+//        $login->setCreateTimeText('2019-06-18 14:26:34');
+//        $login->getOldAttributes();//获取查询到的数据
+//        $login->loadDefaultValues();//
+//        $login->save();
+//        $redis = Yii::$app->redis;
+//        // 判断 key 为 username 的是否有值，有则打印，没有则赋值
+//        $key = 'username';
+//        if ($val = $redis->get($key)) {
+//            var_dump($val);
+//        } else {
+//            $redis->set($key, 'marko');
+//            $redis->expire($key, 5);
+//        }
+        //处理上传文件
         $model = new Login();
-        return $this->render('test',['model'=>$model]);
+        if (Yii::$app->request->isPost) {
+            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+            if ($model->upload()) {
+                // 文件上传成功
+                echo '上传成功';
+                $this->redirect('test/test');
+            }
+        }else{
+            $item = [1=>'php',2=>'java',3=>'C++'];
+            return $this->render('test',['model'=>$model,'item'=>$item]);
+        }
+    }
+    //上传文件
+    public function actionUpload()
+    {
+
+
+        return $this->render('upload', ['model' => $model]);
     }
 
 }

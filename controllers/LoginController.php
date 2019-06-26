@@ -123,4 +123,19 @@ class LoginController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+    //上传文件
+    public function actionUpload()
+    {
+        $model = new UploadForm();
+
+        if (Yii::$app->request->isPost) {
+            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+            if ($model->upload()) {
+                // 文件上传成功
+                return;
+            }
+        }
+
+        return $this->render('upload', ['model' => $model]);
+    }
 }

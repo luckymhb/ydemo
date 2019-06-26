@@ -43,14 +43,35 @@ echo Menu::widget([
             'body' => Yii::$app->session->getFlash('postDeleted'),
         ]);
         ?>
-        <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+        <?php $form = ActiveForm::begin(['id' => 'login-form','options' => ['enctype' => 'multipart/form-data']]); ?>
 
-        <?= $form->field($model, 'lname') ?>
+        <?= $form->field($model, 'lname')->textInput()->hint('Please enter your name')->label('Name') ?>
 
         <?= $form->field($model, 'lpass')->passwordInput() ?>
 
+<!--        --><?//= $form->field($model, 'uploadFile[]')->fileInput(['multiple'=>'multiple']); ?>
+
+        <?= $form->field($model, 'imageFile')->fileInput() ?>
+
+        <?= $form->field($model, 'items[]')->checkboxList(['a' => 'Item A', 'b' => 'Item B', 'c' => 'Item C'])->label('选项'); ?>
+
+        <?= $form->field($model, 'category')->dropdownList($item,
+                                                        ['prompt'=>'Select Category']
+                                                    ); ?>
+        <?= $form->field($model, 'category')->radioList([
+            1 => 'radio 1',
+            2 => 'radio 2'
+        ]); ?>
+
+        <?= $form->field($model, 'category')->checkboxList([
+            1 => 'checkbox 1',
+            2 => 'checkbox 2'
+        ]); ?>
+
         <div class="form-group">
-            <?= Html::submitButton('Login') ?>
+            <div class="col-lg-offset-1 col-lg-11">
+                <?= Html::submitButton('Login', ['class' => 'btn btn-primary']) ?>
+            </div>
         </div>
 
         <?php ActiveForm::end(); ?>
