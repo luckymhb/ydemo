@@ -78,7 +78,7 @@ class TestController extends \yii\web\Controller
         $session = Yii::$app->session;
         if($_POST){
 //            print_r(yii::$app->request->post());die;
-            // yii::$app->request->post() 接收post传输的数据
+//             yii::$app->request->post(); //接收post传输的数据
             $uname = Login::findOne(['lname' => $_POST['username'], 'lpass' => $_POST['password']]);
             if($uname){
                 $data['status'] = 1;

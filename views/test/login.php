@@ -32,6 +32,7 @@ $this->title = '管理员登录';
             <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
             <hr class="hr15">
             <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
+            <input name="_csrf" type="hidden" id="_csrf" value="<?= Yii::$app->request->csrfToken ?>">
             <hr class="hr20" >
         </form>
     </div>
@@ -45,7 +46,7 @@ $this->title = '管理员登录';
                 form.on('submit(login)', function(data){
                     var url = "http://www.ydemo.com/web/index.php?r=test/login";
                     var info = data.field;
-                    $.post(url,{username:info.username,password:info.password},function(data1){
+                    $.post(url,{username:info.username,password:info.password,_csrf:info._csrf},function(data1){
                         data1 = JSON.parse(data1);
                         if(data1.status == 1){
                             layer.msg(data1.info,function(data){
