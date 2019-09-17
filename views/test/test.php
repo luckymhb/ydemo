@@ -4,6 +4,7 @@ use app\components\HelloWidget;
 use yii\helpers\Html;
 use yii\bootstrap\Alert;
 use app\assets\AppAsset;
+use yii\widgets\LinkPager;
 AppAsset::register($this);  // $this 代表视图对象
 $this->context->layout = false;
 $this->title = '测试';
@@ -51,7 +52,9 @@ echo Menu::widget([
 
 <!--        --><?//= $form->field($model, 'uploadFile[]')->fileInput(['multiple'=>'multiple']); ?>
 
-        <?= $form->field($model, 'imageFile')->fileInput() ?>
+<!--        --><?//= $form->field($model, 'imageFile')->fileInput() ?>
+
+                <?= $form->field($model, 'imageFile[]')->fileInput(['multiple' => true, 'accept' => 'image/*']) ?>
 
         <?= $form->field($model, 'items[]')->checkboxList(['a' => 'Item A', 'b' => 'Item B', 'c' => 'Item C'])->label('选项'); ?>
 
@@ -77,6 +80,9 @@ echo Menu::widget([
         <?php ActiveForm::end(); ?>
         <?= HelloWidget::widget(['message' => 'Good morning']) ?>
     </div>
+    <?= LinkPager::widget([
+        'pagination' => $pagination,
+    ]); ?>
 <?php $this->endBody() ?>
 </body>
 </html>

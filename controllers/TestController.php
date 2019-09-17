@@ -216,15 +216,43 @@ class TestController extends \yii\web\Controller
         //处理上传文件
         $model = new Login();
         if (Yii::$app->request->isPost) {
-            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
-            if ($model->upload()) {
+            $post = Yii::$app->request->post();
+//            print_r($post);die;
+            //单图上传
+//            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+            //多图上传
+            $model->imageFile = UploadedFile::getInstances($model, 'imageFile');
+            if ($imgUrl = $model->upload()) {
                 // 文件上传成功
-                echo '上传成功';
-                $this->redirect('test/test');
+//                echo '上传成功';
             }
+            // INSERT (table name, column values)
+            Yii::$app->db->createCommand()->insert('yii_login', [
+                'lname' => $post['Login']['lname'],
+                'lpass' => $post['Login']['lpass'],
+                'create_time' => time(),
+                'imageFile' => $imgUrl
+            ])->execute();
+            $this->redirect('test');
         }else{
+            //数据格式器
+            $formatter = \Yii::$app->formatter;
+            echo Yii::$app->formatter->format('2019-06-25', 'relativeTime');
+            echo Yii::$app->formatter->format('2542.123', 'integer');
+            echo Yii::$app->formatter->format('https://www.baidu.com', 'url');
+            echo Yii::$app->formatter->format('http://thirdwx.qlogo.cn/mmopen/vi_32/813lMMqJxibZ0kmwkIDQHPgiaTxovfswMSAbibRJXelRvIEq4fzooeBhQX8VWBuWaljQMtNIZl3ufhI3xEC9vGbOw/132', 'image');
+            //使用分页
+            $query = Login::find();
+            // 得到文章的总数（但是还没有从数据库取数据）
+            $count = $query->count();
+            // 使用总数来创建一个分页对象
+            $pagination = new Pagination(['totalCount' => $count,'defaultPageSize' => 2]);
+            // 使用分页对象来填充 limit 子句并取得文章数据
+            $articles = $query->offset($pagination->offset)
+                ->limit($pagination->limit)
+                ->all();
             $item = [1=>'php',2=>'java',3=>'C++'];
-            return $this->render('test',['model'=>$model,'item'=>$item]);
+            return $this->render('test',['model'=>$model,'item'=>$item,'pagination' => $pagination]);
         }
     }
     //上传文件

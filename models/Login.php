@@ -38,7 +38,8 @@ class Login extends \yii\db\ActiveRecord
 //            [['lname', 'lpass'], 'required'],
             [['lname'], 'string', 'max' => 30],
             [['lpass'], 'string', 'max' => 40],
-            [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg'],
+//            [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg'],
+            [['imageFile'], 'file', 'skipOnEmpty' => false, 'extensions' => 'png, jpg', 'maxFiles' => 4],
         ];
     }
 
@@ -55,11 +56,24 @@ class Login extends \yii\db\ActiveRecord
             'items' =>'选项',
         ];
     }
+    //单图上传
+//    public function upload()
+//    {
+//        if ($this->validate()) {
+//            $this->imageFile->saveAs('D:\phpStudy\PHPTutorial\WWW\ydemo\uploads/' . $this->imageFile->baseName . '.' . $this->imageFile->extension);
+//            return true;
+//        } else {
+//            return false;
+//        }
+//    }
+    //多图上传
     public function upload()
     {
         if ($this->validate()) {
-            $this->imageFile->saveAs(Yii::$app->request->baseUrl.'/uploads/' . $this->imageFile->baseName . '.' . $this->imageFile->extension);
-            return true;
+            foreach ($this->imageFile as $file) {
+                $file->saveAs('D:\phpStudy\PHPTutorial\WWW\ydemo\uploads/' . time() . '.' . $file->extension);
+            }
+            return 'D:\phpStudy\PHPTutorial\WWW\ydemo\uploads/' . time() . '.' . $file->extension;
         } else {
             return false;
         }
